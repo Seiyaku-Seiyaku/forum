@@ -1,10 +1,66 @@
 # 默认忽略的文件
 /shelf/
 /workspace.xml
+
 # 基于编辑器的 HTTP 客户端请求
 /httpRequests/
+
 # 已忽略包含查询文件的默认文件夹
 /queries/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# ===== 编译产物 =====
+target/
+*.class
+*.jar
+*.war
+
+# ===== IDE 配置 =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+
+# ===== Kotlin 相关 =====
+. kotlin/
+*~
+
+# ===== 日志文件 =====
+*.log
+logs/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Maven 相关 =====
+.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# ===== Spring Boot 配置文件（敏感信息）=====
+application-local.properties
+application-dev.properties
+application-prod.properties
+*.secret.properties
+
+# ===== 本地环境配置 =====
+.env
+*.local.properties
+
+# ===== 测试临时文件 =====
+test-output/
+*.tmp
+
+# ===== Docker 相关（如果没有用到可以忽略）=====
+docker-compose.override.yml
+*.dockerignore
