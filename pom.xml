@@ -21,10 +21,16 @@
 	<properties>
 		<java.version>17</java.version>
 		<kotlin.version>1.9.23</kotlin.version>
-		<mybatis-plus.version>3.5.7</mybatis-plus.version>
+		<mybatis-plus.version>3.5.5</mybatis-plus.version>
 	</properties>
 
 	<dependencies>
+		<!-- 手动添加 mybatis-spring 适配 Spring Boot 3 -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>3.0.4</version>
+		</dependency>
 		<!-- ===== Spring Boot 基础 ===== -->
 		<!-- Spring Web：写接口用的 -->
 		<dependency>
