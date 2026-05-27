@@ -15,12 +15,12 @@ To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
 第1周
-□ 第1天：项目启动成功
-□ 第2天：连上MySQL
-□ 第3天：User实体+Mapper
-□ 第4天：注册接口
-□ 第5天：登录接口+JWT
-□ 周末：Postman测通注册+登录
+✅第1天：项目启动成功
+✅第2天：连上MySQL
+✅第3天：User实体+Mapper
+✅第4天：注册接口
+✅第5天：登录接口+JWT
+✅周末：Postman测通注册+登录
 
 第2周
 □ 第6天：Fiction实体+Mapper
