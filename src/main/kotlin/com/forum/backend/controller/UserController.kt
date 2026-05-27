@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/user")
 class UserController(
-    private val userService: UserService,
-    private val jwtUtils: JwtUtils
+    private val jwtUtils: JwtUtils,
+    private val userService: UserService
 ) {
 
     @PostMapping("/register")
